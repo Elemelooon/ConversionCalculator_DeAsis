@@ -197,6 +197,8 @@ function updateOptions () {
         left.appendChild(kg1);
 
     }
+    let clear = "";
+    document.getElementById('left').value = clear;
     leftbox = document.getElementById('leftselect').value
     rightbox = document.getElementById('rightselect').value
     parent()
