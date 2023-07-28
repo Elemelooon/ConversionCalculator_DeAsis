@@ -1,16 +1,15 @@
 
-#leftselect {
+#leftselect , #rightselect {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     cursor: pointer;
     background-color: rgb(133, 123, 123);
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #dfd9d9;
 }
-#rightselect {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    cursor: pointer;
-    background-color: rgb(133, 123, 123);
-}
+
 #left {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -77,19 +76,7 @@ body {
     background-color: #f8f8f8;
 }
   
-  /* Style the select dropdowns */
-  #leftselect,
-  #rightselect {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    /* border-radius: 4px; */
-    background-color: #dfd9d9;
-    appearance: none; /* Remove default arrow icon on some browsers */
-  }
-  
-  /* Add some spacing */
+
   .my-4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -97,11 +84,13 @@ body {
   
 
   /* Set the width of the select dropdowns in the last row */
-  .col-lg-3 {
+  /* .col-lg-3 {
     width: 45%;
-}
+} */
 .colorme {
     /* background-color: #171d25; */
+    margin-top: auto;
+    margin-bottom: auto;
     background-image: linear-gradient(to right, #4ECDC4 , #556270);
 }
 .colorme2 {
