@@ -1,0 +1,112 @@
+
+#leftselect {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    cursor: pointer;
+    background-color: rgb(133, 123, 123);
+}
+#rightselect {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    cursor: pointer;
+    background-color: rgb(133, 123, 123);
+}
+#left {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#unitselector {
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body {
+    font-family: 'Acme', sans-serif;
+    background-color: #171d25;;
+    /* background-image: url(2022-02-equations.gif); */
+    /* background-image: linear-gradient(to right, #4ECDC4 , #556270); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  /* Style the header and select element */
+  h1 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* .form-select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    appearance: none; 
+  }
+   */
+  /* Style the input fields */
+/* .form-control {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+} */
+  
+  /* Style the disabled input field */
+#right {
+    background-color: #f8f8f8;
+}
+  
+  /* Style the select dropdowns */
+  #leftselect,
+  #rightselect {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    background-color: #dfd9d9;
+    appearance: none; /* Remove default arrow icon on some browsers */
+  }
+  
+  /* Add some spacing */
+  .my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+
+  /* Set the width of the select dropdowns in the last row */
+  .col-lg-3 {
+    width: 45%;
+}
+.colorme {
+    /* background-color: #171d25; */
+    background-image: linear-gradient(to right, #4ECDC4 , #556270);
+}
+.colorme2 {
+    background-color: #1b2838;
+}
+.formula {
+    color: rgb(207, 200, 200);
+}

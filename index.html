@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- CSS Connection -->
+    <link rel="stylesheet" href="EXERCISE13.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container mt-5 p-5 colorme">
+        <div class="container colorme2">
+
+        <div class="row justify-content-center ">
+            
+                <div class="col-12 my-4">
+                    <h1 class="my-4 pb-4 text-center">Conversion Calculator</h1>
+                    <select name="" id="unitselector" class="form-select">
+                        <option value="Speed">Speed</option>
+                        <option value="Length">Length</option>
+                        <option value="Temp">Temperature</option>
+                        <option value="Time">Time</option>
+                        <option value="Mass">Mass</option>
+                    </select>
+                </div>
+        </div>
+        <div class="row justify-content-center">
+                <div class="col-lg-3 mt-4 d-flex justify-content-start ">
+                    <input type="number" id="left" onkeyup="parent()" class="form-control ">
+                </div> 
+                <div class="col-lg-3 mt-4 ">
+                    <input type="number" id="right" disabled class="form-control ">
+                </div> 
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3">
+                <!-- <div class="input-group"> -->
+                    <select name="" id="leftselect" onchange="getLeftValue ()" class="form-select "></select>
+                    <!-- <span class="input-group-text"><i class="fa-solid fa-sort-down"></i></span>
+                </div> -->
+            </div>
+            <div class="col-lg-3 mb-4">
+                <!-- <div class="input-group"> -->
+                    <select name="" id="rightselect" onchange="getRightValue()" class="form-select"></select>
+                <!-- </div> -->
+            </div>
+        </div>
+        <h5 class="formula">Formula:</h4>
+        <div class="formula my-3">
+         <p id="formula" class="text-center"></p>
+        </div>
+    </div>    
+    </div>
+
+    
+</body>
+<script src="EXERCISE13.js"></script>
+</html>
